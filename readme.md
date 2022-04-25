@@ -6,12 +6,12 @@
 
 ## Making a guess
 * Detect key presses: <br>
-    x if key press is a letter
-        x update "letters" attribute
-            x update the tile markup based on "letters" value
-    - if key press is backspace
-        - delete last letter in "letters"
-            - update tile markup based on "letters"
+    x if key press is a letter <br>
+        x update "letters" attribute <br>
+            x update the tile markup based on "letters" value <br>
+    - if key press is backspace <br>
+        - delete last letter in "letters" <br>
+            - update tile markup based on "letters" <br>
 
 Typing in the letter will display the letter in the tile <br>
 Backspace will delete the letters <br>
