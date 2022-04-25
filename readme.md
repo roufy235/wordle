@@ -4,25 +4,25 @@
 ## Gameplay
 6 tries to get a 5-letter word
 
-Typing in the letter will display the letter in the tile
-Backspace will delete the letters
-Enter will submit guess
+Typing in the letter will display the letter in the tile <br>
+Backspace will delete the letters <br>
+Enter will submit guess <br>
 
-Guesses must be a real word, "in word list"
-Guess colors (data-state):
-    - gray: "absent", letter not in word
-    - yellow: "present", letter in word, but in wrong position
-    - green: "correct", letter in word, and in right position
+Guesses must be a real word, "in word list" <br>
+* Guess colors (data-state): <br>
+    - gray: "absent", letter not in word <br>
+    - yellow: "present", letter in word, but in wrong position <br>
+    - green: "correct", letter in word, and in right position <br>
 
 ## Design
-Tiles 5 x 6
-Virtual Keyboard
+Tiles 5 x 6 <br>
+Virtual Keyboard <br>
 ## Interactions
-When typing a letter:
-    - border of the tile changes to light gray
-    - blinking in animation with the letter
-    - backspace will remove letter, border changes back to dark gray
+* When typing a letter: <br>
+    - border of the tile changes to light gray <br>
+    - blinking in animation with the letter <br>
+    - backspace will remove letter, border changes back to dark gray <br>
 
-When submitting a guess:
-    - tiles will flip up and background color will change based on guess
+* When submitting a guess: <br>
+    - tiles will flip up and background color will change based on guess <br>
 
