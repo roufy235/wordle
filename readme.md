@@ -6,9 +6,9 @@
 
 ## Making a guess
 * Detect key presses: <br>
-    - if key press is a letter
-        - update "letters" attribute
-            - update the tile markup based on "letters" value
+    x if key press is a letter
+        x update "letters" attribute
+            x update the tile markup based on "letters" value
     - if key press is backspace
         - delete last letter in "letters"
             - update tile markup based on "letters"
