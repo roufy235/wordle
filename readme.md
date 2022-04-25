@@ -1,5 +1,5 @@
 # Wordle
-[Live Demo Here](https://roufy235.github.io/wordle/)
+[Live Demo Here](https://roufy235.github.io/wordle-clone/)
 
 ## Gameplay
 6 tries to get a 5-letter word
