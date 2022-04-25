@@ -1,15 +1,28 @@
 # Wordle
 [Live Demo Here](https://roufy235.github.io/wordle/)
 
-## Instructions
+## Gameplay
+6 tries to get a 5-letter word
 
-Install Yeoman globally: `npm install -g yo`
+Typing in the letter will display the letter in the tile
+Backspace will delete the letters
+Enter will submit guess
 
-Then install the Gulp + Sass boilerplate generator globally: `npm install -g generator-gulp-sass-boilerplate`
+Guesses must be a real word, "in word list"
+Guess colors (data-state):
+    - gray: "absent", letter not in word
+    - yellow: "present", letter in word, but in wrong position
+    - green: "correct", letter in word, and in right position
 
-Navigate to a directory you want to generate the files in, then run `yo gulp-sass-boilerplate`
+## Design
+Tiles 5 x 6
+Virtual Keyboard
+## Interactions
+When typing a letter:
+    - border of the tile changes to light gray
+    - blinking in animation with the letter
+    - backspace will remove letter, border changes back to dark gray
 
-To run, you will need to have the Gulp CLI also installed globally:
-`npm install -g gulp-cli`
+When submitting a guess:
+    - tiles will flip up and background color will change based on guess
 
-Then in the project root, run the website by running `gulp`.
